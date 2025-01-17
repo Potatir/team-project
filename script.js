@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const addTaskButton = document.getElementById("add-task");
     const taskList = document.getElementById("task-list");
   
+    
     // Добавление задачи
     addTaskButton.addEventListener("click", () => {
       const taskText = taskInput.value.trim();
